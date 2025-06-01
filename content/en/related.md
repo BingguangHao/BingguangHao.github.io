@@ -9,7 +9,7 @@ menu: main
 We sincerely thank every organization and individual involved in our project and welcome discussions from the community.
 
 ## Related Orgnizations
-{{< figure src="/images/Victor_Hugo-Hunchback.jpg" title="Illustration from Victor Hugo et son temps (1881)" >}}
+{{< figure src="/images/Pope-Edouard-de-Beaumont-1844.jpg" title="Illustration from Victor Hugo et son temps (1881)" >}}
 
 
 ## Contact
