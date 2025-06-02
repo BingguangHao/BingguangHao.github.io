@@ -1,8 +1,7 @@
 ---
 date: 2025-05-30
 description: "Embrace the power of the model itself."
-#featured_image: "/images/HumanandRobotHands.jpeg"
-featured_image: "/images/post1/MSL.png"
+featured_image: "/images/HumanandRobotHands.jpeg"
 tags: ["Function Call"]
 title: "FunReason: Enhancing Large Language Models' Function Calling via Self-Refinement Multiscale Loss and Automated Data Refinement"
 ---
