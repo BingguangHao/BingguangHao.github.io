@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://bingguanghao.github.io/sitemap.xml
