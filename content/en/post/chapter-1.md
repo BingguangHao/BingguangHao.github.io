@@ -5,7 +5,7 @@ featured_image: "/images/HumanandRobotHands.jpeg"
 tags: ["Function Call"]
 title: "FunReason: Enhancing Large Language Models' Function Calling via Self-Refinement Multiscale Loss and Automated Data Refinement"
 ---
-[ 📖GitHub](https://github.com/BingguangHao/FunReason/)         [📑Paper](https://arxiv.org/pdf/2505.20192)         [🤗Hugging Face](https://huggingface.co/Bingguang/FunReason)
+[📖GitHub](https://github.com/BingguangHao/FunReason/)         [📑Paper](https://arxiv.org/pdf/2505.20192)         [🤗Hugging Face](https://huggingface.co/Bingguang/FunReason)
 
 ---
 
