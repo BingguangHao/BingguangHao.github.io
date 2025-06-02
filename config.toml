@@ -1,5 +1,5 @@
-title = "Note"
-baseURL = "https://gohugo-theme-ananke.pages.dev"
+title = "Blog"
+baseURL = "https://bingguanghao.github.io/Agent/"
 languageCode = "en-us"
 theme = ["ananke"]
 
