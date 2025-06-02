@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Function Call on Agent</title>
-    <link>http://localhost:1313/tags/function-call/</link>
+    <link>http://localhost:1313/Agent/tags/function-call/</link>
     <description>Recent content in Function Call on Agent</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 30 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/function-call/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/Agent/tags/function-call/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>FunReason: Enhancing Large Language Models&#39; Function Calling via Self-Refinement Multiscale Loss and Automated Data Refinement</title>
-      <link>http://localhost:1313/post/chapter-1/</link>
+      <link>http://localhost:1313/Agent/post/chapter-1/</link>
       <pubDate>Fri, 30 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/chapter-1/</guid>
+      <guid>http://localhost:1313/Agent/post/chapter-1/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://github.com/BingguangHao/FunReason/&#34;&gt;📖GitHub&lt;/a&gt;         &lt;a href=&#34;https://arxiv.org/pdf/2505.20192&#34;&gt;📑Paper&lt;/a&gt;         &lt;a href=&#34;https://huggingface.co/Bingguang/FunReason&#34;&gt;🤗Hugging Face&lt;/a&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Function call becomes a fundamental concept in Large Language Models, enabling more efficient interaction.&lt;/p&gt;&#xA;&lt;p&gt;We propose FunReason, FunReason enhances LLMs&amp;rsquo; function calling by balancing reasoning and execution accuracy. Using automated data refinement and Self-Refinement Multiscale Loss (SRML), it generates high-quality training data for query parseability, reasoning coherence, and precise function calls. SRML optimizes both aspects during training, matching GPT-4o performance while minimizing forgetting. &lt;strong&gt;We will release all the data that refined in this process, whcih contains 60k high quality CoT data for function call.&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
   </channel>

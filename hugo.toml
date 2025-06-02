@@ -1,7 +1,7 @@
-title = "Blog"
-baseURL = "https://gohugo-theme-ananke.pages.dev"
+baseURL = "https://bingguanghao.github.io/Agent/"
 languageCode = "en-us"
-theme = ["ananke"]
+title = "Agent"
+theme = "ananke"
 
 DefaultContentLanguage = "en"
 SectionPagesMenu = "main"
