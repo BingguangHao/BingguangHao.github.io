@@ -263,6 +263,14 @@
     background: linear-gradient(135deg, #3d5965, #7599a7);
   }
 
+  .paper-thumb.seed-report {
+    background: linear-gradient(135deg, #3157ee, #7698ff);
+  }
+
+  .paper-thumb.entropy {
+    background: linear-gradient(135deg, #4f6670, #91a9ad);
+  }
+
   .publication-groups td {
     padding: 0 20px 20px;
   }
@@ -274,16 +282,33 @@
 
   .publication-list {
     margin: 0 0 26px;
-    padding-left: 22px;
+    padding: 0;
   }
 
-  .publication-list li {
-    margin-bottom: 13px;
+  .publication-item {
+    display: grid;
+    grid-template-columns: 190px minmax(0, 1fr);
+    gap: 20px;
+    align-items: center;
+    padding: 14px 0;
+    border-bottom: 1px solid #eee;
+  }
+
+  .publication-item:first-child {
+    border-top: 1px solid #eee;
+  }
+
+  .publication-details {
     line-height: 1.55;
   }
 
-  .publication-list papertitle {
-    line-height: 1.55;
+  .publication-details p {
+    margin: 5px 0;
+    color: #444;
+  }
+
+  .publication-details em {
+    color: #333;
   }
 
   .simple-list td {
@@ -363,6 +388,12 @@
     .paper-thumb {
       width: 100%;
       height: 130px;
+    }
+
+    .publication-item {
+      grid-template-columns: 1fr;
+      gap: 12px;
+      padding: 18px 0;
     }
 
     .experience-logo img {
