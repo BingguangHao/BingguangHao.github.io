@@ -239,7 +239,7 @@
     background: linear-gradient(135deg, #3b4a8f, #7b71bb);
   }
 
-  .paper-thumb.hardgen {
+  .paper-thumb.funreason {
     background: linear-gradient(135deg, #247865, #68ad88);
   }
 
@@ -251,8 +251,47 @@
     background: linear-gradient(135deg, #246a91, #65a3ba);
   }
 
+  .paper-thumb.ebench {
+    background: linear-gradient(135deg, #7856a5, #b487c9);
+  }
+
+  .paper-thumb.janus {
+    background: linear-gradient(135deg, #b14d78, #dd8eaf);
+  }
+
+  .paper-thumb.cvpr {
+    background: linear-gradient(135deg, #3d5965, #7599a7);
+  }
+
   .simple-list td {
     padding: 10px 20px 18px;
+    line-height: 1.55;
+  }
+
+  .experience-list {
+    width: 100%;
+    border-spacing: 0;
+  }
+
+  .experience-logo {
+    width: 25%;
+    padding: 10px 20px 18px;
+    vertical-align: middle;
+  }
+
+  .experience-logo img {
+    width: 190px;
+    height: 90px;
+    display: block;
+    object-fit: contain;
+    border: 1px solid #eee;
+    border-radius: 15px;
+  }
+
+  .experience-copy {
+    width: 75%;
+    padding: 10px 0 18px;
+    vertical-align: middle;
     line-height: 1.55;
   }
 
@@ -286,7 +325,9 @@
     }
 
     .thumb-cell,
-    .paper-info {
+    .paper-info,
+    .experience-logo,
+    .experience-copy {
       display: block;
       width: auto;
       padding: 10px 20px;
@@ -299,5 +340,14 @@
     .paper-thumb {
       width: 100%;
       height: 130px;
+    }
+
+    .experience-logo img {
+      width: 100%;
+      height: 100px;
+    }
+
+    .experience-copy {
+      padding-bottom: 24px;
     }
   }
