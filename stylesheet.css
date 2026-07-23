@@ -263,6 +263,29 @@
     background: linear-gradient(135deg, #3d5965, #7599a7);
   }
 
+  .publication-groups td {
+    padding: 0 20px 20px;
+  }
+
+  .publication-groups h3 {
+    margin: 10px 0 8px;
+    font-size: 17px;
+  }
+
+  .publication-list {
+    margin: 0 0 26px;
+    padding-left: 22px;
+  }
+
+  .publication-list li {
+    margin-bottom: 13px;
+    line-height: 1.55;
+  }
+
+  .publication-list papertitle {
+    line-height: 1.55;
+  }
+
   .simple-list td {
     padding: 10px 20px 18px;
     line-height: 1.55;
