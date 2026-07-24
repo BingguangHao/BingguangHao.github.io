@@ -83,16 +83,6 @@ papertitle {
   vertical-align: middle;
 }
 
-.bio::before {
-  content: "NLP  ·  TOOL USE  ·  AI AGENTS";
-  display: block;
-  margin-bottom: 12px;
-  color: var(--green);
-  font-size: 11px;
-  font-weight: 700;
-  letter-spacing: 0.15em;
-}
-
 .bio .center:first-child {
   margin: 0 0 25px;
   text-align: left;
@@ -101,7 +91,7 @@ papertitle {
 name {
   display: block;
   font-family: "Newsreader", Georgia, serif;
-  font-size: clamp(46px, 6vw, 66px);
+  font-size: clamp(40px, 5vw, 54px);
   font-weight: 600;
   letter-spacing: -0.045em;
   line-height: 0.98;
@@ -624,7 +614,7 @@ footer a {
   }
 
   name {
-    font-size: 48px;
+    font-size: 42px;
   }
 
   .at-a-glance {
