@@ -58,7 +58,7 @@ papertitle {
 
 .page {
   width: min(100% - 36px, 980px);
-  margin: 42px auto;
+  margin: 28px auto 36px;
 }
 
 .page > tbody > tr > td {
@@ -79,7 +79,7 @@ papertitle {
 
 .bio {
   width: 64%;
-  padding: 48px 42px;
+  padding: 42px;
   vertical-align: middle;
 }
 
@@ -141,7 +141,7 @@ name {
 
 .portrait-cell {
   width: 36%;
-  padding: 30px 36px 30px 4px;
+  padding: 26px 36px 26px 4px;
   vertical-align: middle;
   text-align: center;
 }
@@ -159,10 +159,143 @@ name {
   transform: rotate(1.2deg);
 }
 
+/* Snapshot and news */
+
+.at-a-glance {
+  display: grid;
+  grid-template-columns: minmax(260px, 1.8fr) repeat(3, 1fr);
+  gap: 1px;
+  overflow: hidden;
+  margin-top: 18px;
+  border: 1px solid var(--line);
+  border-radius: 17px;
+  background: var(--line);
+  box-shadow: 0 10px 28px rgba(30, 55, 44, 0.04);
+}
+
+.focus-summary,
+.stat {
+  min-height: 104px;
+  padding: 19px 22px;
+  background: rgba(255, 255, 255, 0.88);
+}
+
+.focus-summary {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.focus-summary > span,
+.mini-heading > span {
+  color: var(--green);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+.focus-summary p {
+  max-width: 340px;
+  margin: 5px 0 0;
+  color: var(--ink);
+  font-family: "Newsreader", Georgia, serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.stat strong {
+  color: var(--green);
+  font-family: "Newsreader", Georgia, serif;
+  font-size: 32px;
+  line-height: 1;
+}
+
+.stat span {
+  margin-top: 6px;
+  color: var(--muted);
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 1.25;
+  text-transform: uppercase;
+}
+
+.recent-highlights {
+  display: grid;
+  grid-template-columns: 190px minmax(0, 1fr);
+  gap: 24px;
+  margin-top: 18px;
+  padding: 22px 24px;
+  border: 1px solid var(--line);
+  border-radius: 17px;
+  background: rgba(255, 255, 255, 0.68);
+}
+
+.mini-heading {
+  align-self: center;
+}
+
+.mini-heading h2 {
+  margin: 4px 0 0;
+  font-family: "Newsreader", Georgia, serif;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -0.025em;
+  line-height: 1.1;
+}
+
+.highlight-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.highlight-list article {
+  position: relative;
+  padding-left: 14px;
+}
+
+.highlight-list article::before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  bottom: 5px;
+  left: 0;
+  width: 3px;
+  border-radius: 4px;
+  background: #bfd1c6;
+}
+
+.highlight-list time {
+  color: var(--green);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.highlight-list p {
+  margin: 4px 0 0;
+  color: var(--muted);
+  font-size: 11px;
+  line-height: 1.4;
+}
+
+.highlight-list strong {
+  color: var(--ink);
+}
+
 /* Section headings */
 
 .section-title {
-  padding: 62px 4px 18px;
+  padding: 42px 4px 15px;
   vertical-align: middle;
 }
 
@@ -226,7 +359,7 @@ heading::before {
 /* Experience */
 
 .experience-list {
-  border-spacing: 0 12px;
+  border-spacing: 0 9px;
 }
 
 .experience-list tr {
@@ -280,7 +413,7 @@ heading::before {
 }
 
 .publication-groups h3 {
-  margin: 24px 0 11px;
+  margin: 18px 0 10px;
   color: var(--green);
   font-size: 12px;
   font-weight: 700;
@@ -432,7 +565,7 @@ heading::before {
 }
 
 footer {
-  margin-top: 62px;
+  margin-top: 42px;
   padding: 22px 0 6px;
   border-top: 1px solid var(--line);
   color: #8a948f;
@@ -494,8 +627,39 @@ footer a {
     font-size: 48px;
   }
 
+  .at-a-glance {
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 13px;
+  }
+
+  .focus-summary {
+    grid-column: 1 / -1;
+  }
+
+  .focus-summary,
+  .stat {
+    min-height: 88px;
+    padding: 16px;
+  }
+
+  .stat strong {
+    font-size: 27px;
+  }
+
+  .recent-highlights {
+    grid-template-columns: 1fr;
+    gap: 15px;
+    margin-top: 13px;
+    padding: 19px;
+  }
+
+  .highlight-list {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
   .section-title {
-    padding-top: 48px;
+    padding-top: 36px;
   }
 
   heading {
