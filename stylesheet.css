@@ -482,6 +482,10 @@ heading::before {
   opacity: 0.82;
 }
 
+.paper-thumb.hardgen {
+  background: linear-gradient(135deg, #1f5f8b, #4f9bc9);
+}
+
 .paper-thumb.balance {
   background: linear-gradient(135deg, #d85e48, #ee9870);
 }
