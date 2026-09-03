@@ -518,6 +518,10 @@ heading::before {
   background: linear-gradient(135deg, #3157e7, #7798f8);
 }
 
+.paper-thumb.qwen-report {
+  background: linear-gradient(135deg, #7657c7, #b79cff);
+}
+
 .paper-thumb.entropy {
   background: linear-gradient(135deg, #4e6870, #91a9ab);
 }
